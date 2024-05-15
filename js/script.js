@@ -39,3 +39,26 @@ if (cantidad === null) {
 }
 
 
+/* Arrays */
+
+
+let figuras = [
+{
+    nombrefigura: "Jack Skellington",
+    altura: "9”",
+    precio: "$34.99",
+
+},
+{
+    nombrefigura: "Raphael Ninja Turtle",
+    altura: "7”",
+    precio: "$36.99",
+
+},
+ {
+    nombrefigura: "Frankestein",
+    altura: "7”",
+    precio: "$59.99",
+
+},
+]
