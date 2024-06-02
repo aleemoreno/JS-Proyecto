@@ -102,18 +102,19 @@ header {
         }
     }
     .producto-detalles {
-        padding-top: 15px;
+        padding-top: 20px;
         padding-bottom: 10px ;
 
         .producto-titulo {
          color: aliceblue;
          font-size: 13px;
+         margin-bottom: 0%;
          }
          
          .producto-precio {
             color: aliceblue;
             font-size: 20px;
-            padding-bottom: 0%; 
+            margin-bottom: 10px;
          }
     }
 }
