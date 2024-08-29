@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "THE NIGHTMARE BEFORE CHRISTMAS - JACK SKELLINGTON WITH PUMPKIN",
+      "price": 34.99,
+      "image": "../Images/jack-productoo.png"
+    },
+    {
+      "id": 2,
+      "title": "TMNT (THE LAST RONIN) - 7\" SCALE ACTION FIGURE - ULTIMATE FIRST TO FALL RAPHAEL",
+      "price": 36.99,
+      "image": "../Images/last ronin.png"
+    },
+    {
+      "id": 3,
+      "title": "BRIDE OF FRANKENSTEIN ULTIMATE FRANKENSTEIN’S MONSTER 7” SCALE ACTION FIGURE WITH CHAIR",
+      "price": 59.99,
+      "image": "../Images/frankesteinproducto.png"
+    },
+    {
+      "id": 4,
+      "title": "ULTIMATE DRACULA (CARFAX ABBEY) 7\" SCALE ACTION FIGURE",
+      "price": 34.99,
+      "image": "../Images/dracula-producto.png"
+    },
+    {
+      "id": 5,
+      "title": "E.T. THE EXTRA-TERRESTRIAL - ELLIOTT & E.T. ON BICYCLE 7\" SCALE ACTION FIGURE",
+      "price": 44.99,
+      "image": "../Images/E.T-producto.png"
+    },
+    {
+      "id": 6,
+      "title": "GARGOYLES - ULTIMATE STEEL CLAN ROBOT 7\" SCALE ACTION FIGURE",
+      "price": 36.99,
+      "image": "../Images/gargolyes-producto.png"
+    }
+  ]
+  

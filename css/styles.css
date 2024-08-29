@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.empty-cart-message {
+  color: rgb(255, 0, 0);
+  font-size: 90px;
+  text-align: center;
+  padding-top: 100px;
+}
+
 /* Boton añadir al carrito */
 .addtocart-button {
   border: none;
@@ -50,7 +57,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(78, 72, 72);
+  background-color: rgb(24, 24, 24);
   padding: 30px;
 }
 .carrito-productos .carrito-producto .carrito-producto-imagen {
@@ -68,22 +75,68 @@
   border: 1px rgb(10, 10, 10);
 }
 
-/* 
+.contenedor-carrito {
+  background-color: rgb(8, 8, 8);
+  margin-bottom: 20px;
+  padding: 10px;
+}
 
-.carrito-producto-eliminar {
-    padding: 20px 30px;
-    height: 100px;
-    background-color: transparent;
-    border: 1px  rgb(10, 10, 10);
+.contenedor-cardcarrito {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(41, 40, 40);
+  border-radius: 10px;
+  margin-bottom: 0px;
+  margin-right: 270px;
+  padding: 10px;
+}
 
-    .icono-eliminar {
-        fill: white;
-    }
+/* imagen del producto */
+.producto-img-carrito {
+  width: 250px;
+}
 
-    .trash-icon{
-        color: aliceblue;
-    }
-} */
+.card-body {
+  background-color: rgb(41, 40, 40);
+  color: white;
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+  font-size: 15px;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Estilos para SweetAlert */
+.popup-class {
+  background-color: rgb(41, 40, 40);
+}
+
+.no-icon .swal2-icon {
+  display: none;
+}
+
+.title-class {
+  color: aliceblue;
+}
+
+.confirm-button-class {
+  background-color: red;
+}
 
 * {
   box-sizing: border-box;
@@ -93,7 +146,7 @@
 }
 
 body {
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(10, 10, 10);
 }
 
 h2 {
@@ -105,10 +158,16 @@ h2 {
   padding-bottom: 0px;
 }
 
+.footer-text {
+  color: aliceblue;
+  font-size: 15px;
+  padding-top: 100px;
+}
+
 /*-------Header-------*/
 header {
   display: flex;
-  background-color: rgb(22, 21, 21);
+  background-color: rgb(15, 15, 15);
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
@@ -117,7 +176,7 @@ header {
 
 .logo {
   width: 15%;
-  background-color: rgb(22, 21, 21);
+  background-color: rgb(15, 15, 15);
 }
 .logo img {
   width: 100%;
@@ -125,10 +184,10 @@ header {
 
 .secciones {
   flex-wrap: wrap;
-  background-color: rgb(22, 21, 21);
+  background-color: rgb(15, 15, 15);
   justify-content: space-evenly;
-  font-size: 25px;
-  padding: 10px 50px;
+  font-size: 30px;
+  padding: 10px 100px 10px 50px;
 }
 .secciones ul {
   margin: auto;

@@ -20,7 +20,7 @@
   </div>
   <nav class="secciones">
         <ul>
-           <li> <a href="pages/sobrenosotros.html">ABOUT US</a></li>
+           <li> <a href="index.html">HOME</a></li>
            <li> <a href=""> WHOLESALE</a></li>
            <li> <a href=""> NECA NEWS</a></li>
            <li> <a class="boton-carrito" href="pages/carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
@@ -32,61 +32,10 @@
 
  <main>
 
-    <!-- cards -->
-
-   <h2 class="sub-title">FEATURED IN-STOCK</h2> 
+  <!-- carousel -->
 
 
-   <div id="contenedor-productosenstock" class="contenedor-productosenstock">
-     <div class="producto">
-       <img src="Images/jack-productoo.png" alt="Figura de coleccion">
-       <div class="producto-detalles">
-         <h3 class="producto-titulo">THE NIGHTMARE BEFORE CHRISTMAS - JACK SKELLINGTON WITH PUMPKIN</h3>
-         <p class="producto-precio">$34.99</p>
-         <button class="addtocart-button" data-product-id="1"><p class="button-text">ADD TO CART</p></button>
-        </div>
-     </div>
-     <div class="producto">
-      <img src="Images/last ronin.png" alt="Figura de coleccion">
-      <div class="producto-detalles">
-         <h3 class="producto-titulo">TMNT (THE LAST RONIN) - 7" SCALE ACTION FIGURE - ULTIMATE FIRST TO FALL RAPHAEL</h3>
-         <p class="producto-precio">$36.99</p>
-         <button class="addtocart-button" data-product-id="2"><p class="button-text">ADD TO CART</p></button>
-      </div>
-     </div>
-     <div class="producto">
-      <img src="Images/frankesteinproducto.png" alt="Figura de coleccion">
-      <div class="producto-detalles">
-         <h3 class="producto-titulo">BRIDE OF FRANKENSTEIN ULTIMATE FRANKENSTEIN’S MONSTER 7” SCALE ACTION FIGURE WITH CHAIR</h3>
-         <p class="producto-precio">$59.99</p>
-         <button class="addtocart-button" data-product-id="3"><p class="button-text">ADD TO CART</p></button>
-      </div>
-     </div>
-
- </div>
-
-</main>
-
-
-<footer>
-  <p>© 2024, NECA. All rights reserved.</p>
-</footer>
-
-
-<script src="./js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  
-</body>
-</html>
-
-
-
-
-
-<!-- carousel -->
-
-
-   <!--  <div id="carousel-body" class="carousel slide" data-bs-ride="carousel">
+     <div id="carousel-body" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carousel-body" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carousel-body" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -124,17 +73,41 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div> 
 
 
+    <!-- cards -->
+
+   <h2 class="sub-title">FEATURED IN-STOCK</h2> 
 
 
+   <div id="contenedor-productosenstock" class="contenedor-productosenstock">
+     <div class="producto">
+       <img src="Images/jack-productoo.png" alt="Figura de coleccion">
+       <div class="producto-detalles">
+         <h3 class="producto-titulo">THE NIGHTMARE BEFORE CHRISTMAS - JACK SKELLINGTON WITH PUMPKIN</h3>
+         <p class="producto-precio">$34.99</p>
+         <button class="addtocart-button" data-product-id="1"><p class="button-text">ADD TO CART</p></button>
+        </div>
+     </div>
+     <div class="producto">
+      <img src="Images/last ronin.png" alt="Figura de coleccion">
+      <div class="producto-detalles">
+         <h3 class="producto-titulo">TMNT (THE LAST RONIN) - 7" SCALE ACTION FIGURE - ULTIMATE FIRST TO FALL RAPHAEL</h3>
+         <p class="producto-precio">$36.99</p>
+         <button class="addtocart-button" data-product-id="2"><p class="button-text">ADD TO CART</p></button>
+      </div>
+     </div>
+     <div class="producto">
+      <img src="Images/frankesteinproducto.png" alt="Figura de coleccion">
+      <div class="producto-detalles">
+         <h3 class="producto-titulo">BRIDE OF FRANKENSTEIN ULTIMATE FRANKENSTEIN’S MONSTER 7” SCALE ACTION FIGURE WITH CHAIR</h3>
+         <p class="producto-precio">$59.99</p>
+         <button class="addtocart-button" data-product-id="3"><p class="button-text">ADD TO CART</p></button>
+      </div>
+     </div>
 
-
-
-
-
-    <!--  <div class="producto">
+      <div class="producto">
      <img src="Images/dracula-producto.png" alt="Figura de coleccion">
      <div class="producto-detalles">
         <h3 class="producto-titulo"> ULTIMATE DRACULA (CARFAX ABBEY) 7" SCALE ACTION FIGURE</h3>
@@ -157,4 +130,38 @@
          <p class="producto-precio">$36.99</p>
          <button class="addtocart-button" data-product-id="6"><p class="button-text">ADD TO CART</p></button>
       </div>
-   </div> -->
+   </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+
+</main>
+
+
+<footer>
+  <p class="footer-text">© 2024, NECA. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/script.js"></script>
+<script src="./js/productos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
+
+
+
+
+
+

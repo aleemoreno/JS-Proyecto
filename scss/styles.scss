@@ -22,11 +22,17 @@ h2 {
     padding-bottom: 0px;
 }
 
+.footer-text {
+    color: aliceblue;
+    font-size: 15px;
+    padding-top: 100px;
+}
+
 /*-------Header-------*/
 
 header {
     display: flex;
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(15, 15, 15);
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
@@ -35,7 +41,7 @@ header {
 
  .logo {
     width: 15%;
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(15, 15, 15);
     img {
         width: 100%;
     }
@@ -43,10 +49,10 @@ header {
 
 .secciones {
    flex-wrap: wrap;
-   background-color: rgb(22, 21, 21);
+   background-color: rgb(15, 15, 15);
    justify-content: space-evenly;
-   font-size: 25px;
-   padding: 10px 50px;
+   font-size: 30px;
+   padding: 10px 100px 10px 50px;
 
    ul{
       margin: auto;
@@ -69,8 +75,6 @@ header {
     }   
 }   
 
-
-
 .carousel-item {
     h5 {
         font-size: 35px;
@@ -82,7 +86,6 @@ header {
     }
     
 }
-
 
 .contenedor-productosenstock {
     display: grid;
